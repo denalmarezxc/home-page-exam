@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="./index.css">
+
+	<!-- Boostrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="./index.css">
+
+
+	<title></title>
+</head>
+<body>
+
+	<section id="nav-bar">
+	  <div class="container">
+	    <div class="row">
+	      <nav class="navbar navbar-expand-md navbar-light text-light">
+	        <div class="container-fluid">
+	          <a class="navbar-brand" href="#">ShopGPT</a>
+	          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	            <span class="navbar-toggler-icon"></span>
+	          </button>
+
+	          <div class="collapse navbar-collapse" id="navbarNav">
+	            <ul class="navbar-nav">
+	              <li class="nav-item">
+	                <a class="nav-link active" aria-current="page" href="#hero">Home</a>
+	              </li>
+	              <li class="nav-item">
+	                <a class= "nav-link" href="#carousel">Features</a>
+	              </li>
+	              <li class="nav-item">
+	                <a class="nav-link" href="#about-us">About Us</a>
+	              </li>
+	            </ul>
+	            
+	            <!-- Added a div for right-aligned links -->
+	            <div class="ms-auto">  <!-- 'ms-auto' (margin-start auto) aligns the content to the right -->
+	              <ul class="navbar-nav">
+	                <li class="nav-item">
+	                  <a class="nav-link" href="#">Login</a>
+	                </li>
+	                <li class="nav-item">
+	                  <a class="nav-link" href="#">Register</a>
+	                </li>
+	              </ul>
+	            </div>
+	          </div>
+	        </div>
+	      </nav>
+	    </div>
+	  </div>
+	</section>
+
+
+	<section id="hero" class=" ">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-9 mt-5 text-center text-md-start ">
+					<h1>Welcome to <span class="title">ShopGPT</span>!</h1>
+					<p>At <strong>ShopGPT</strong>, we believe shopping should be easy, enjoyable, and affordable. Whether you're looking for the latest fashion trends, cutting-edge gadgets, home essentials, or unique gifts, we’ve got something for everyone. Our carefully curated selection of high-quality products from trusted brands is designed to bring you the best shopping experience, all from the comfort of your home.</p>
+					<button class="btn-shop-now">Shop Now!</button>
+				</div>
+			</div>
+		</div>
+		
+
+	</section>
+
+
+
+	<section id="carousel" class="my-5">
+		
+		<div class="container">
+	        <div class="row">
+	            <!-- Carousel-->
+	            <div class="col-md-6">
+	                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+	                    <div class="carousel-indicators">
+	                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+	                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+	                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+	                    </div>
+	                    <div class="carousel-inner">
+	                        <div class="carousel-item active">
+	                            <img src="carousel/product1.png" class="d-block w-100" alt="Slide 1">
+	                        </div>
+	                        <div class="carousel-item">
+	                            <img src="carousel/product2.png" class="d-block w-100" alt="Slide 2">
+	                        </div>
+	                        <div class="carousel-item">
+	                            <img src="carousel/product3.png" class="d-block w-100" alt="Slide 3">
+	                        </div>
+	                    </div>
+	                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+	                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	                        <span class="visually-hidden">Previous</span>
+	                    </button>
+	                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+	                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	                        <span class="visually-hidden">Next</span>
+	                    </button>
+	                </div>
+	            </div>
+
+	            <!-- Side Text -->
+	            <div class="col-md-6 d-flex align-items-center text-dark text-center">
+	                <div>
+	                    <h2>Why Choose Us?</h2>
+	                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	                    tempor incididunt ut labore et dolore magna aliqua.</p>
+	                </div>
+	            </div>
+	    	</div>
+		</div>
+				
+
+		  <script src="script.js"></script>
+	</section>
+	<section id="heading"></section>
+
+
+	<section id="cards">
+		<div class="products-container justify-content-center">
+		  <div class="product-card">
+		    <img src="https://via.placeholder.com/400x250" alt="Product 1" class="product-image">
+		    <div class="product-info">
+		      <h3 class="product-title">Smartphone XYZ</h3>
+		      <p class="product-description">A high-end smartphone with a sleek design and powerful features.</p>
+		      <p class="product-price">$799</p>
+		      <a href="#" class="product-button">Buy Now</a>
+		    </div>
+		  </div>
+
+		  <div class="product-card">
+		    <img src="https://via.placeholder.com/400x250" alt="Product 2" class="product-image">
+		    <div class="product-info">
+		      <h3 class="product-title">Laptop ABC</h3>
+		      <p class="product-description">A fast and reliable laptop for work and play, with long battery life.</p>
+		      <p class="product-price">$1299</p>
+		      <a href="#" class="product-button">Buy Now</a>
+		    </div>
+		  </div>
+
+		  <div class="product-card">
+		    <img src="https://via.placeholder.com/400x250" alt="Product 3" class="product-image">
+		    <div class="product-info">
+		      <h3 class="product-title">Wireless Headphones</h3>
+		      <p class="product-description">Premium sound quality with noise cancellation for the best audio experience.</p>
+		      <p class="product-price">$199</p>
+		      <a href="#" class="product-button">Buy Now</a>
+		    </div>
+		  </div>
+		</div>
+		</section>
+
+
+		<section id="about-us" class="about-us">
+		  <div class="about-container justify-content-center">
+		    <div class="about-text">
+		      <h2 class="about-title text-">About Us</h2>
+		      <p class="about-description">
+		        We are a leading tech company with a passion for innovation. Our mission is to provide cutting-edge solutions that help businesses thrive in a fast-paced digital world.
+		      </p>
+		      <p class="about-description">
+		        With a team of skilled professionals, we specialize in developing high-quality products, offering expert services, and delivering exceptional customer experiences.
+		      </p>
+		      <a href="#" class="cta-button">Learn More</a>
+		    </div>
+		    
+		  </div>
+		</section>
+	
+
+
+	<footer class="footer">
+	  <div class="footer-container">
+	    <div class="footer-section">
+	      <h3 class="footer-title">Contact Us</h3>
+	      <p class="footer-text">Email: contact@company.com</p>
+	      <p class="footer-text">Phone: (123) 456-7890</p>
+	    </div>
+
+	    <div class="footer-section">
+	      <h3 class="footer-title">Quick Links</h3>
+	      <ul class="footer-links">
+	        <li><a href="#">Home</a></li>
+	        <li><a href="#">About Us</a></li>
+	        <li><a href="#">Products</a></li>
+	        
+	      </ul>
+	    </div>
+
+	    <div class="footer-section">
+	      <h3 class="footer-title">Follow Us</h3>
+	      <div class="social-icons">
+	        <a href="#" class="social-icon"><img src="https://via.placeholder.com/30" alt="Facebook"></a>
+	        <a href="#" class="social-icon"><img src="https://via.placeholder.com/30" alt="Twitter"></a>
+	        <a href="#" class="social-icon"><img src="https://via.placeholder.com/30" alt="Instagram"></a>
+	        <a href="#" class="social-icon"><img src="https://via.placeholder.com/30" alt="LinkedIn"></a>
+	      </div>
+	    </div>
+	  </div>
+
+	  <div class="footer-bottom">
+	    <p>&copy; 2024 ShopGPT. For educational purposes only.</p>
+	  </div>
+	</footer>
+
+
+
+
+
+
+
+
+
+	<script src="script.js"></script>
+	<!-- boostrap -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
